@@ -1,9 +1,32 @@
 #menu
 {
     border-radius: 10px;
-    background-color: rgb(95, 20, 20);
+    background-image: linear-gradient(90deg, rgb(95, 20, 20), rgb(107, 107, 0));
 }
 body
 {
     background-color: rgb(253, 79, 79);
+}
+.bg-image {
+    background-image: url('../imgs/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body, html {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+img {
+    height: auto;
+    width: 65%;
 }
